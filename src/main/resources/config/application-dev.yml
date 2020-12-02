@@ -1,0 +1,16 @@
+server:
+  port: 8082
+
+logging:
+  level:
+    org:
+      springframework:
+        web: TRACE
+        boot:
+          env: TRACE
+          context: TRACE
+          SpringApplication: TRACE
+sample:
+  enable: true
+  name: SampleHello
+  status: init
